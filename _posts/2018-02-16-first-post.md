@@ -1,10 +1,11 @@
 ---
-title: First post
-date: 2018-02-16
+title: First post test
+date: 2018-02-16 00:00:00 +0000
 tags: pattern recognition
 categories:
-    - XX
-    - XY
+- XX
+- XY
+
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non viverra magna. Nam in metus sit amet elit pretium scelerisque. Pellentesque mattis lacus sed facilisis hendrerit. In hac habitasse platea dictumst. Donec molestie, nisi maximus pharetra aliquam, lacus neque aliquet enim, vitae elementum turpis sem eget lacus. Vestibulum sit amet arcu quis nulla consequat ultricies at sit amet enim. Cras egestas tellus ac urna eleifend mattis. Aliquam bibendum posuere magna, quis vehicula est placerat nec. Proin scelerisque sem non velit fermentum, vitae volutpat arcu facilisis. Pellentesque eleifend elementum turpis sed malesuada. Vestibulum volutpat imperdiet nisl sit amet malesuada. Suspendisse potenti. Sed nec nunc est.
 
