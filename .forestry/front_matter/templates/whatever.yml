@@ -2,6 +2,10 @@
 label: whatever
 hide_body: false
 is_partial: false
-fields: []
+fields:
+- type: textarea
+  name: body
+  label: body
+  default: main text
 pages:
 - _posts/thing.md
