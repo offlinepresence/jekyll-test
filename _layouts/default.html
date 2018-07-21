@@ -1,0 +1,30 @@
+<!doctype html>
+<html class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>{{ title }}</title>
+  <link rel="stylesheet" href="/css/normalize.css" />
+  <meta name="author" content="{{ site.author }}">
+  <meta name="description" content="{{ description }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<!-- begin page content -->
+{{ content }}
+<!-- end page content -->
+<!-- begin deferred styles -->
+<!-- https://developers.google.com/speed/docs/insights/OptimizeCSSDelivery -->
+<noscript id="deferred-styles">
+{% for u in page.lazy-css-loads %}<link rel="stylesheet" href="{{ u }}">{% endfor %}
+<!-- add more lazy styles here e.g. font awesome -->
+</noscript>
+<script type="text/javascript">
+{% include deferredStyles.js %}
+</script>
+<!-- end deferred styles -->
+{% if jekyll.environment == "production" %}
+<!-- production scripts here e.g. analytics tracker -->
+{% endif %}
+</body>
+</html>

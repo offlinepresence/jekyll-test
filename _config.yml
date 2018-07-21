@@ -1,0 +1,16 @@
+title: Adam Gamble's Long Sunday Run
+email: adam.gamble@pm.me
+author: Adam Gamble
+baseurl: "/" # the subpath of your site, e.g. /blog/
+url: "https://long.sunday.run"
+timezone: Europe/London
+exclude: ["vendor", "*.nix", ".git", "_site"]
+show_drafts: null
+permalink: /:year/:month/:day/:title.html
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      layout: "post"
