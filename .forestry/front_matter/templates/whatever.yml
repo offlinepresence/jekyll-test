@@ -8,4 +8,5 @@ fields:
   label: body
   default: main text
 pages:
+- thing.md
 - _posts/thing.md
