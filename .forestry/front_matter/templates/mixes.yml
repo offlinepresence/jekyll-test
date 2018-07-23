@@ -7,3 +7,5 @@ fields:
   default: []
   label: bandcamp id
   name: bandcamp_id
+pages:
+- mixes.md
