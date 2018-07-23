@@ -1,0 +1,9 @@
+---
+label: mixes
+hide_body: false
+is_partial: false
+fields:
+- type: list
+  default: []
+  label: bandcamp id
+  name: bandcamp_id
